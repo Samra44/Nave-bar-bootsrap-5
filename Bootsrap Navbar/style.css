@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.header{  
+    width: 100%;
+    background-image: linear-gradient( to right, #ffffff, #5AB2FF);
+}
+
+#logo{
+    font-size: 30px;
+    margin-left: 30px;
+    color:#000000 ;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(219, 245, 170);
+}
+#logo img{
+    margin-bottom: 10px;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.nav-item .nav-link{
+    color: black;
+    font-weight: bold;
+    transition: 0.5s ease;
+}
+#first-child{
+    color: #000000;
+    text-shadow: 1px 1px 1px rgb(203, 241, 159);
+}
+.nav-item .nav-link:hover{
+    color: #000000;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+.icons{
+    margin-right: 30px;
+}
+.icons i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.ticon{
+     font-size: 40px;
+     margin: 10px;
+     cursor: pointer;
+}
+.menu{
+    width: 25%;
+    height: 100vh;
+    background: #5AB2FF;
+    position:fixed;
+    top: 0px;
+    left: -25%;
+    transition: 1s;
+}
+.menu h1{
+    color: rgb(250, 148, 250);
+    padding: 25px;
+}
+.menu ul li a{
+     display: block;
+     padding: 10px 15px;
+     color: white;
+     text-decoration: none;
+}
+.close{
+     font-size: 40px;
+     color: white;
+     right: 10px;
+     cursor: pointer;
+     position: absolute;
+}
+.smenu {
+     left: 0%;
+}
+#demo{
+    margin-top: 100px;
+    font-family: 'Roboto Slab', serif;
+    transition: all ease 1s;
+    box-shadow:#92208c;
+}
+#demo h1{
+    text-align: center;
+    margin-top: 60px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 1px 1px 1px black;
+}
+ #demo .card:hover{
+    scale: 1.2;
+    background-color: #fc9bf7;
+    
+}
